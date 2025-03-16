@@ -1,0 +1,5 @@
+model_name_or_path: ../DeepSeek-R1-Distill-Qwen-1.5B
+adapter_name_or_path: saves/deepseek/lora/sft
+template: deepseek3
+infer_backend: huggingface  # choices: [huggingface, vllm]
+trust_remote_code: true
