@@ -10,7 +10,7 @@ lora_rank: 8
 lora_target: all
 
 ### dataset
-dataset: identity,gaokao
+dataset: gaokao,datasets-1744012752113-alpaca-2025-04-18
 template: deepseek3
 cutoff_len: 2048
 max_samples: 1000
