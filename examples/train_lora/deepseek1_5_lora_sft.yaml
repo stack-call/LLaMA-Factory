@@ -10,7 +10,7 @@ lora_rank: 8
 lora_target: all
 
 ### dataset
-dataset: gaokao,datasets-1744012752113-alpaca-2025-04-18
+dataset: gaokao
 template: deepseek3
 cutoff_len: 2048
 max_samples: 1000
@@ -29,8 +29,8 @@ save_only_model: false
 ### train
 per_device_train_batch_size: 1
 gradient_accumulation_steps: 8
-learning_rate: 5.0e-4
-num_train_epochs: 12.0
+learning_rate: 6.0e-4
+num_train_epochs: 3.0
 lr_scheduler_type: cosine
 warmup_ratio: 0.1
 bf16: true
